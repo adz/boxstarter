@@ -1,4 +1,4 @@
-Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+#Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
 
 cinst lastpass
 
@@ -16,7 +16,7 @@ cinst sourcetree
 cinst dropbox
 
 # Remote desktop
-cinst teamviewer
+#cinst teamviewer
 
 # Video chat
 cinst skype
