@@ -1,5 +1,7 @@
 Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
 
+cinst lastpass
+
 # Dev libs
 cinst javaruntime
 cinst DotNet4.5
