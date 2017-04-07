@@ -20,6 +20,7 @@ cinst teamviewer
 
 # Video chat
 cinst skype
+cinst slack
 
 # Editors / IDE
 cinst vim
