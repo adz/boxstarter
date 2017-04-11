@@ -1,5 +1,6 @@
-#Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
 
+cinst virtualbox  
 cinst lastpass
 
 # Dev libs
@@ -7,7 +8,7 @@ cinst javaruntime
 cinst DotNet4.5
 
 # Git
-cinst git.install -params '"/GitOnlyOnPath /NoAutoCrlf"'
+cinst git -params '"/GitOnlyOnPath /NoAutoCrlf"'
 cinst poshgit
 cinst git-credential-winstore
 cinst beyondcompare
@@ -15,7 +16,7 @@ cinst sourcetree
 
 cinst dropbox
 
-# Remote desktop
+# Remote desktop (fails on checksum)
 #cinst teamviewer
 
 # Video chat
@@ -27,6 +28,7 @@ cinst vim
 cinst atom
 cinst visualstudiocode
 cinst visualstudio2017community
+cinst linqpad
 
 # Utils
 cinst 7zip
