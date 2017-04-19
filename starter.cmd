@@ -11,8 +11,6 @@ cinst DotNet4.5
 cinst git -params '"/GitOnlyOnPath /NoAutoCrlf"'
 cinst poshgit
 cinst git-credential-winstore
-cinst beyondcompare
-cinst sourcetree
 
 cinst dropbox
 
@@ -28,13 +26,11 @@ cinst vim
 cinst atom
 cinst visualstudiocode
 cinst visualstudio2017community
-cinst linqpad
 
 # Utils
 cinst 7zip
 cinst gow          # gnu-on-win
 cinst adobereader
-cinst fiddler4     # inspect http
 cinst sysinternals
 cinst cmder        # Cmd prompt
 
