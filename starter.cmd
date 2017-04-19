@@ -21,9 +21,20 @@ cinst dropbox
 cinst skype
 cinst slack
 
+# F#
+cinst windows-sdk-8.0 -y
+cinst visualfsharptools -y
+cinst microsoft-build-tools -y
+
 # Editors / IDE
 cinst vim
+
 cinst atom
+apm install ionide-installer # fsharp
+apm install vim-mode-plus
+apm install vim-mode-plus-ex-mode
+apm install language-babel # JS
+
 cinst visualstudiocode
 cinst visualstudio2017community
 
@@ -37,7 +48,6 @@ cinst cmder        # Cmd prompt
 # Browsers
 cinst GoogleChrome
 cinst Firefox
-
 
 # Maybe later?
 #cinst SqlServer2012Express
